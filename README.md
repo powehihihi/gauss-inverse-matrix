@@ -54,7 +54,9 @@ It depends on the matrix. Simple solution is faster without a doubt. Also usuall
 
 Both implementations are provided with main function and a few other functions - to print matrix, initialize it with formula or read it from file.
 Run both executables this way: 
+
 **"./a.out n p k"** or **"./a.out n p 0 filename"**
+
 where n>0 - size of matrix (so there are n×n elements), p - size of printed matrix (p×p elements will be printed), 0<k<5 - number of formula to initialize matrix, filename - name of the file with elements of matrix.
 
 Formulae:
