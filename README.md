@@ -16,7 +16,7 @@ How can we know if algorithm gave us a correct answer? Let's assume $A$ is our m
 
 
 <img src="https://latex.codecogs.com/svg.image?res1=||AB-E||_1" />
-<img src="https://latex.codecogs.com/svg.image?res1=||BA-E||_1" />
+<img src="https://latex.codecogs.com/svg.image?res2=||BA-E||_1" />
 where <img src="https://latex.codecogs.com/svg.image?||C||_1=\max_{1\leqslant&space;j&space;\leqslant&space;n}\sum_{i=1}^{n}|y_{ij}|"
 
 If B is an inversed matrix res1=res2=0. However, due to inaccuracy of floating-point arithmetic, we will assume that $B$ is inversed $A$ if res1 or res2 is less than 1 (random number to be honest).
