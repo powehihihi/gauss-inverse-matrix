@@ -24,7 +24,7 @@ If B is an inversed matrix res1=res2=0. However, due to inaccuracy of floating-p
 ## Simple Implementation
 
 ### Idea
-Let's not swap rows or columns - so the leading elements will be on diagonal. Code for this implementation is in GaussSimple.c.
+Let's not swap rows or columns - so the leading elements will be on diagonal. Code for this implementation is in [GaussSimple.c](/GaussSimple.c).
 ### Problems
 This algorithm won't work for some matrice. For example:
 
