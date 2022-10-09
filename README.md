@@ -36,10 +36,10 @@ In this particular case first leading element is 0, so we have to divide by zero
 ## New implementation
 
 ### Idea
-Now let's swap rows and columns according to the following rule: the leading element should be a maximum (by modulus) in the submatrix. Again if its modulus is too small we say that method is not applicable. This implementation is realised in Gauss.c.
+Now let's swap rows and columns according to the following rule: the leading element should be a maximum (by modulus) in the submatrix. Again if its modulus is too small we say that method is not applicable. This implementation is realised in [Gauss.c](/Gauss.c).
 
 ### Problems
-If the simple implementation is applicable, it gives better results in time aand accuracy than new implementation.
+If the simple implementation is applicable, it gives better results in time and accuracy than new implementation.
 
 ### Is new implementation always applicable?
 No. Let's try to inverse [Hilbert Matrix](https://en.wikipedia.org/wiki/Hilbert_matrix). 
